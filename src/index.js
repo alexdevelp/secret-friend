@@ -9,7 +9,6 @@ const client = require('twilio')(accountSid, authToken);
 app.use(express.json());
 app.post('/send-sms', (req, res) => {
 
-    // sendSMS(req.body.phone, req.body.message);
     const participants = drawSecret(participantsList);
 
     console.log(participants);
