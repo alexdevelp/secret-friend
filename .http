@@ -1,0 +1,7 @@
+POST http://localhost:8888/send-sms HTTP/1.1
+Content-Type: application/json
+
+{
+    "phone": "+5551982166650",
+    "message": "Da-lhe Alexandre!"
+}
